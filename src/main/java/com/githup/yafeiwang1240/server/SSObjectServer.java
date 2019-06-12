@@ -1,9 +1,9 @@
 package com.githup.yafeiwang1240.server;
 
+import com.githup.yafeiwang1240.annotation.NotNull;
 import com.githup.yafeiwang1240.annotation.Signal;
 import com.githup.yafeiwang1240.annotation.Slot;
 import com.githup.yafeiwang1240.scheduler.SignalSlotObjectScheduler;
-import com.sun.istack.internal.NotNull;
 
 /**
  * 信号槽服务

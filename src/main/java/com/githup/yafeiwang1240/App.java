@@ -3,7 +3,6 @@ package com.githup.yafeiwang1240;
 import com.githup.yafeiwang1240.annotation.Signal;
 import com.githup.yafeiwang1240.annotation.Slot;
 import com.githup.yafeiwang1240.server.SSObjectServer;
-import com.sun.istack.internal.NotNull;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

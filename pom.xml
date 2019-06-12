@@ -9,7 +9,7 @@
   <version>1.0</version>
 
   <name>ObjectSingalSlot</name>
-  <description>io-netty封装</description>
+  <description>异步调用架构</description>
   <url>https://github.com/yafeiwang1240/ObjectSingalSlot</url>
   <licenses>
     <license>
