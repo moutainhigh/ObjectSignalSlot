@@ -2,149 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7c2823c-ee54-4e42-b154-2fff9a0d30b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/annotation/class-use/NotNull.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/annotation/class-use/Signal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/annotation/class-use/Slot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/annotation/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/annotation/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/annotation/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/factory/ConnectManageFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/factory/ConnectThreadManageFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/factory/class-use/Connect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/factory/class-use/ConnectManageFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/factory/class-use/ConnectThreadManageFactory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/factory/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/factory/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/factory/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/handler/ConnectSchedulerHandler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/handler/class-use/ConnectSchedulerHandler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/handler/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/scheduler/ServerScheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/scheduler/class-use/ServerScheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/scheduler/class-use/SignalSlotObjectScheduler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/scheduler/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/scheduler/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/scheduler/package-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/server/AsynServer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/server/SSObjectServer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/server/class-use/AsynServer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/server/class-use/SSObjectServer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/server/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/server/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/thread/class-use/ConnectThread.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/thread/class-use/ThreadPool.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/thread/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/thread/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/utils/AnnotationTools.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/utils/class-use/AnnotationTools.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/utils/class-use/HashKeyTools.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/utils/package-frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/AsynClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/factory/ConnectManageFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/factory/ConnectThreadManageFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/handler/ConnectSchedulerHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/scheduler/ServerScheduler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/scheduler/SignalSlotObjectScheduler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/server/AsynServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/server/SSObjectServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/thread/ThreadPool$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/thread/ThreadPool$IgnorePolicy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/thread/ThreadPool$NameTreadFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/thread/ThreadPool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/utils/AnnotationTools.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/githup/yafeiwang1240/sso/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ObjectSingalSlot-1.0-javadoc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ObjectSingalSlot-1.0-javadoc.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ObjectSingalSlot-1.0-javadoc.jar.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/ObjectSingalSlot-1.0-javadoc.jar.asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ObjectSingalSlot-1.0-sources.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ObjectSingalSlot-1.0-sources.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ObjectSingalSlot-1.0-sources.jar.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/ObjectSingalSlot-1.0-sources.jar.asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ObjectSingalSlot-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ObjectSingalSlot-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ObjectSingalSlot-1.0.jar.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/ObjectSingalSlot-1.0.jar.asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ObjectSingalSlot-1.0.pom.asc" beforeDir="false" afterPath="$PROJECT_DIR$/target/ObjectSingalSlot-1.0.pom.asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/App.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/App.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/annotation/NotNull.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/annotation/NotNull.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/annotation/Signal.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/annotation/Signal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/annotation/Slot.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/annotation/Slot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/annotation/class-use/NotNull.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/annotation/class-use/Signal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/annotation/class-use/Slot.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/annotation/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/annotation/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/annotation/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/annotation/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/annotation/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/class-use/App.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/class-use/App.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/factory/Connect.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/factory/Connect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/factory/ConnectThreadFactory.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/factory/class-use/Connect.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/handler/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/factory/class-use/ConnectThreadFactory.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/utils/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/factory/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/factory/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/utils/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/factory/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/factory/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/thread/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/scheduler/SignalSlotObjectScheduler.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/scheduler/SignalSlotObjectScheduler.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/scheduler/class-use/SignalSlotObjectScheduler.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/handler/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/scheduler/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/scheduler/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/scheduler/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/scheduler/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/scheduler/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/server/SSObjectServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/AsynClient.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/server/class-use/SSObjectServer.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/handler/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/server/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/package-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/server/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/server/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/server/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/package-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/server/package-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/thread/ConnectThread.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/thread/ConnectThread.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/thread/ThreadPool.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/thread/ThreadPool.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/thread/class-use/ConnectThread.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/factory/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/thread/class-use/ThreadPool.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/class-use/AsynClient.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/thread/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/thread/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/thread/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/thread/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/thread/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/server/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/utils/HashKeyTools.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/utils/HashKeyTools.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/utils/class-use/HashKeyTools.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/utils/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/utils/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/utils/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/package-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/utils/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/utils/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/sso/package-use.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-frame.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/apidocs/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/package-list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/annotation/NotNull.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/annotation/NotNull.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/annotation/Signal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/annotation/Signal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/annotation/Slot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/annotation/Slot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/factory/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/factory/Connect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/factory/ConnectThreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/scheduler/SignalSlotObjectScheduler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/server/SSObjectServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/thread/ConnectThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/thread/ConnectThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/thread/ThreadPool$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/thread/ThreadPool$IgnorePolicy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/thread/ThreadPool$NameTreadFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/thread/ThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/utils/HashKeyTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/sso/utils/HashKeyTools.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.githup.yafeiwang1240.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.githup.yafeiwang1240.sso.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.githup.yafeiwang1240.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.githup.yafeiwang1240.sso.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/githup/yafeiwang1240/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/annotation/NotNull.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/annotation/Signal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/annotation/Slot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/annotation/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/factory/Connect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/factory/class-use/Connect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/factory/class-use/ConnectThreadFactory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/factory/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/factory/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/scheduler/SignalSlotObjectScheduler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/scheduler/class-use/SignalSlotObjectScheduler.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/scheduler/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/server/SSObjectServer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/server/class-use/SSObjectServer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/server/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/server/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/server/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/thread/ConnectThread.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/thread/ThreadPool.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/thread/class-use/ConnectThread.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/thread/class-use/ThreadPool.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/thread/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/thread/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/utils/HashKeyTools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/utils/class-use/HashKeyTools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/utils/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/githup/yafeiwang1240/utils/package-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/annotation/NotNull.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/annotation/Signal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/annotation/Slot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/factory/Connect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/thread/ConnectThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/githup/yafeiwang1240/utils/HashKeyTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.githup.yafeiwang1240.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.githup.yafeiwang1240.AppTest.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -162,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="222" column="21" lean-forward="true" selection-start-line="222" selection-start-column="21" selection-end-line="222" selection-end-column="21" />
+            <state relative-caret-position="5550">
+              <caret line="222" column="21" selection-start-line="222" selection-start-column="21" selection-end-line="222" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -171,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/server/AsynServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="100">
               <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -183,7 +75,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/AsynClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
+            <state relative-caret-position="95">
               <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -199,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1900">
+            <state relative-caret-position="1775">
               <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -224,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/server/SSObjectServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="275">
               <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -337,41 +229,6 @@
               <item name="ObjectSingalSlot" type="b2602c69:ProjectViewProjectNode" />
               <item name="ObjectSingalSlot" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ObjectSingalSlot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ObjectSingalSlot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ObjectSingalSlot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ObjectSingalSlot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ObjectSingalSlot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ObjectSingalSlot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ObjectSingalSlot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ObjectSingalSlot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yafeiwang1240" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ObjectSingalSlot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ObjectSingalSlot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yafeiwang1240" type="462c0819:PsiDirectoryNode" />
-              <item name="sso" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -432,6 +289,7 @@
       <workItem from="1560476895349" duration="4033000" />
       <workItem from="1560481245397" duration="635000" />
       <workItem from="1560482310023" duration="44000" />
+      <workItem from="1560492941044" duration="429000" />
     </task>
     <task id="LOCAL-00001" summary="oss异步调用框架">
       <created>1560223362849</created>
@@ -475,17 +333,23 @@
       <option name="project" value="LOCAL" />
       <updated>1560480398864</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="bin文件删除">
+      <created>1560492988455</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560492988455</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33582000" />
+    <option name="totallyTimeSpent" value="34011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32821342" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33387226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -494,7 +358,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.46181172" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40319717" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.57726467" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1740675" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -502,7 +366,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.25222024" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.25177306" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3516874" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -525,7 +389,8 @@
     <MESSAGE value="注解获取方法封装" />
     <MESSAGE value="修改为client server结构" />
     <MESSAGE value="Demo更改" />
-    <option name="LAST_COMMIT_MESSAGE" value="Demo更改" />
+    <MESSAGE value="bin文件删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="bin文件删除" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/ThreadFactory.java">
@@ -777,14 +642,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="222" column="21" lean-forward="true" selection-start-line="222" selection-start-column="21" selection-end-line="222" selection-end-column="21" />
+        <state relative-caret-position="5550">
+          <caret line="222" column="21" selection-start-line="222" selection-start-column="21" selection-end-line="222" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/server/AsynServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="100">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -794,7 +659,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
+        <state relative-caret-position="1775">
           <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -815,7 +680,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/server/SSObjectServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="275">
           <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -832,7 +697,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/AsynClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
+        <state relative-caret-position="95">
           <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
