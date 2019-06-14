@@ -1,22 +1,36 @@
-package com.githup.yafeiwang1240.factory;
+package com.githup.yafeiwang1240.sso.factory;
 
-import com.githup.yafeiwang1240.thread.ConnectThread;
-import com.githup.yafeiwang1240.utils.HashKeyTools;
+import com.githup.yafeiwang1240.sso.handler.ConnectSchedulerHandler;
+import com.githup.yafeiwang1240.sso.thread.ConnectThread;
+import com.githup.yafeiwang1240.sso.utils.HashKeyTools;
 
 import java.lang.reflect.Field;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class ConnectThreadFactory {
+/**
+ * 信号槽管理工厂
+ */
+public class ConnectThreadManageFactory implements ConnectManageFactory {
 
-    private static Map<String, ConnectThread> baseThreadMap = new ConcurrentHashMap<>();
+    private Map<String, ConnectThread> baseThreadMap = new ConcurrentHashMap<>();
 
-    public static ConnectThread getBaseThread(Object signalObject, String signal, Object... params) {
-        String hashKey = HashKeyTools.toHashKey(getHashArrays(signalObject, signal, params));
-        return baseThreadMap.get(hashKey);
+    private ConnectSchedulerHandler<ConnectThread, Object> schedulerHandler;
+
+
+    public void setSchedulerHandler(ConnectSchedulerHandler<ConnectThread, Object> schedulerHandler) {
+        this.schedulerHandler = schedulerHandler;
     }
 
-    public static void addBaseThread(Object signalObject, Object slotObject, String signal, String slot, Class<?>... params) {
+    @Override
+    public void emit(Object signalObject, String signal, Object... params) {
+        String hashKey = HashKeyTools.toHashKey(getHashArrays(signalObject, signal, params));
+        ConnectThread connectThread = baseThreadMap.get(hashKey);
+        schedulerHandler.invoke(connectThread, params);
+    }
+
+    @Override
+    public void connect(Object signalObject, Object slotObject, String signal, String slot, Class<?>... params) {
         String hashKey = HashKeyTools.toHashKey(getHashArrays(signalObject, signal, params));
         ConnectThread thread = baseThreadMap.get(hashKey);
         if(thread == null) {
@@ -30,12 +44,14 @@ public class ConnectThreadFactory {
         }
     }
 
-    public static boolean remove(Object signalObject, String signal, Class<?>... params) {
+    @Override
+    public boolean remove(Object signalObject, String signal, Class<?>... params) {
         String hashKey = HashKeyTools.toHashKey(getHashArrays(signalObject, signal, params));
         return baseThreadMap.remove(hashKey) != null;
     }
 
-    public static boolean remove(Object signalObject, Object slotObject, String signal, String slot, Class<?>... params) {
+    @Override
+    public boolean remove(Object signalObject, Object slotObject, String signal, String slot, Class<?>... params) {
         String hashKey = HashKeyTools.toHashKey(getHashArrays(signalObject, signal, params));
         ConnectThread thread = baseThreadMap.get(hashKey);
         if(thread == null) {
@@ -48,7 +64,7 @@ public class ConnectThreadFactory {
         return result;
     }
 
-    private static Object[] getHashArrays(Object obj, String type, Object... params) {
+    private Object[] getHashArrays(Object obj, String type, Object... params) {
         Object[] arrays = new Object[2 + params.length];
         arrays[0] = obj;
         arrays[1] = type;

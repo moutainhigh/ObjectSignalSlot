@@ -1,10 +1,10 @@
-package com.githup.yafeiwang1240.annotation;
+package com.githup.yafeiwang1240.sso.annotation;
 
 import java.lang.annotation.*;
 
-@Target(ElementType.METHOD)
+@Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface Slot {
+public @interface Signal {
     String value() default "";
 }

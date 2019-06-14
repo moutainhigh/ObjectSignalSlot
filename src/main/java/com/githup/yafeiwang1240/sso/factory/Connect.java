@@ -1,4 +1,4 @@
-package com.githup.yafeiwang1240.factory;
+package com.githup.yafeiwang1240.sso.factory;
 
 public final class Connect {
 

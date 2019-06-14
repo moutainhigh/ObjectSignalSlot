@@ -5,6 +5,7 @@ com\githup\yafeiwang1240\App.class
 com\githup\yafeiwang1240\factory\ConnectThreadFactory.class
 com\githup\yafeiwang1240\annotation\NotNull.class
 com\githup\yafeiwang1240\thread\ConnectThread.class
+com\githup\yafeiwang1240\utils\AnnotationTools.class
 com\githup\yafeiwang1240\annotation\Slot.class
 com\githup\yafeiwang1240\server\SSObjectServer.class
 com\githup\yafeiwang1240\thread\ThreadPool$1.class

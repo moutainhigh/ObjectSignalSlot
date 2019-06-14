@@ -1,4 +1,4 @@
-package com.githup.yafeiwang1240.thread;
+package com.githup.yafeiwang1240.sso.thread;
 
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
