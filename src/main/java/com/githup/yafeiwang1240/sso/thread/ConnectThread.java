@@ -47,7 +47,7 @@ public class ConnectThread implements Runnable {
             Connect connect = connects.get(key);
             try {
                 if(connect.getSlotObject() instanceof Class) {
-                    method = ((Class<Object>) connect.getSlotObject()).getMethod(connect.getSlot(), connect.getParams());
+                    method = ((Class) connect.getSlotObject()).getMethod(connect.getSlot(), connect.getParams());
                 } else {
                     method = connect.getSlotObject().getClass().getMethod(connect.getSlot(), connect.getParams());
                 }
@@ -59,7 +59,11 @@ public class ConnectThread implements Runnable {
                 }else {
                     t = args;
                 }
-                method.invoke(connect.getSlotObject(), t);
+                if(connect.getSlotObject() instanceof Class) {
+                    method.invoke(((Class) connect.getSlotObject()).newInstance(), t);
+                } else {
+                    method.invoke(connect.getSlotObject(), t);
+                }
             } catch (NoSuchMethodException e) {
                 e.printStackTrace();
             }catch (SecurityException e) {
@@ -67,6 +71,8 @@ public class ConnectThread implements Runnable {
                 e.printStackTrace();
             }catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
                 // TODO Auto-generated catch block
+                e.printStackTrace();
+            } catch (InstantiationException e) {
                 e.printStackTrace();
             }
         }
