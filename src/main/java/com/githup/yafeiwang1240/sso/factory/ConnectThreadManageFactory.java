@@ -1,6 +1,6 @@
 package com.githup.yafeiwang1240.sso.factory;
 
-import com.githup.yafeiwang1240.sso.handler.ConnectSchedulerHandler;
+import com.githup.yafeiwang1240.sso.handler.ConnectExecutorHandler;
 import com.githup.yafeiwang1240.sso.thread.ConnectThread;
 import com.githup.yafeiwang1240.sso.utils.HashKeyTools;
 
@@ -15,18 +15,18 @@ public class ConnectThreadManageFactory implements ConnectManageFactory {
 
     private Map<String, ConnectThread> baseThreadMap = new ConcurrentHashMap<>();
 
-    private ConnectSchedulerHandler<ConnectThread, Object> schedulerHandler;
+    private ConnectExecutorHandler<ConnectThread, Object> executorHandler;
 
 
-    public void setSchedulerHandler(ConnectSchedulerHandler<ConnectThread, Object> schedulerHandler) {
-        this.schedulerHandler = schedulerHandler;
+    public void setSchedulerHandler(ConnectExecutorHandler<ConnectThread, Object> schedulerHandler) {
+        this.executorHandler = schedulerHandler;
     }
 
     @Override
     public void emit(Object signalObject, String signal, Object... params) {
         String hashKey = HashKeyTools.toHashKey(getHashArrays(signalObject, signal, params));
         ConnectThread connectThread = baseThreadMap.get(hashKey);
-        schedulerHandler.invoke(connectThread, params);
+        executorHandler.invoke(connectThread, params);
     }
 
     @Override

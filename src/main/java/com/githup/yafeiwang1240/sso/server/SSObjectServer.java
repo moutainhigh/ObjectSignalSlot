@@ -3,7 +3,7 @@ package com.githup.yafeiwang1240.sso.server;
 import com.githup.yafeiwang1240.sso.annotation.NotNull;
 import com.githup.yafeiwang1240.sso.annotation.Signal;
 import com.githup.yafeiwang1240.sso.annotation.Slot;
-import com.githup.yafeiwang1240.sso.scheduler.SignalSlotObjectScheduler;
+import com.githup.yafeiwang1240.sso.scheduler.SignalSlotObjectExecutor;
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,14 +12,14 @@ import java.util.concurrent.TimeUnit;
  */
 public class SSObjectServer implements AsynServer {
 
-    private SignalSlotObjectScheduler scheduler;
+    private SignalSlotObjectExecutor executor;
 
     public SSObjectServer() {
-        scheduler = new SignalSlotObjectScheduler();
+        executor = new SignalSlotObjectExecutor();
     }
 
     public SSObjectServer(int corePoolSize, int maximumPoolSize, int keepAliveTime, TimeUnit unit, int capacity) {
-        scheduler = new SignalSlotObjectScheduler(corePoolSize, maximumPoolSize, keepAliveTime, unit, capacity);
+        executor = new SignalSlotObjectExecutor(corePoolSize, maximumPoolSize, keepAliveTime, unit, capacity);
     }
 
     /**
@@ -45,7 +45,7 @@ public class SSObjectServer implements AsynServer {
      */
     @Override
     public synchronized void connect(Object send, String signal, Object receive, String slot, Class<?>... params) {
-        scheduler.connect(send, signal, receive, slot, params);
+        executor.connect(send, signal, receive, slot, params);
     }
 
     /**
@@ -67,7 +67,7 @@ public class SSObjectServer implements AsynServer {
      */
     @Override
     public synchronized void emit(Object send, String signal, Object... args) {
-        scheduler.emit(send, signal, args);
+        executor.emit(send, signal, args);
     }
 
     /**
@@ -90,7 +90,7 @@ public class SSObjectServer implements AsynServer {
      */
     @Override
     public synchronized boolean remove(Object send, String signal, Class<?>... params) {
-        return scheduler.remove(send, signal, params);
+        return executor.remove(send, signal, params);
     }
 
     /**
@@ -117,7 +117,7 @@ public class SSObjectServer implements AsynServer {
      */
     @Override
     public synchronized boolean remove(Object send, String signal, Object receive, String slot, Class<?>... params) {
-        return scheduler.remove(send, signal, receive, slot, params);
+        return executor.remove(send, signal, receive, slot, params);
     }
 
 }

@@ -12,17 +12,17 @@ import java.util.concurrent.TimeUnit;
 /**
  *  信号槽调度系统
  */
-public class SignalSlotObjectScheduler implements ServerScheduler, Closeable {
+public class SignalSlotObjectExecutor implements ServerExecutor, Closeable {
 
     private ThreadPoolExecutor threadPoolExecutor;
 
     private ConnectManageFactory connectFactory;
 
-    public SignalSlotObjectScheduler() {
+    public SignalSlotObjectExecutor() {
         this(2, 5, 120000, TimeUnit.MILLISECONDS, 20) ;
     }
 
-    public SignalSlotObjectScheduler(int corePoolSize, int maximumPoolSize, int keepAliveTime, TimeUnit unit, int capacity) {
+    public SignalSlotObjectExecutor(int corePoolSize, int maximumPoolSize, int keepAliveTime, TimeUnit unit, int capacity) {
         threadPoolExecutor = ThreadPool.newThreadPoolExecutor(corePoolSize, maximumPoolSize, keepAliveTime, unit, capacity);
         init();
     }
