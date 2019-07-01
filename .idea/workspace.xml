@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7c2823c-ee54-4e42-b154-2fff9a0d30b6" name="Default Changelist" comment="扩展槽函数接受Class">
+    <list default="true" id="d7c2823c-ee54-4e42-b154-2fff9a0d30b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/factory/ConnectThreadManageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/factory/ConnectThreadManageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/handler/ConnectSchedulerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/handler/ConnectExecutorHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/scheduler/ServerScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/scheduler/ServerExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/scheduler/SignalSlotObjectScheduler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/scheduler/SignalSlotObjectExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/server/SSObjectServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/server/SSObjectServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,21 +71,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/server/SSObjectServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#1870#1871#0" expanded="true" />
-                <element signature="e#1920#1921#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/factory/Connect.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="487">
@@ -102,10 +83,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/factory/ConnectThreadManageFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="-1708">
               <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
             </state>
           </provider>
@@ -125,7 +115,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/handler/ConnectExecutorHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
@@ -182,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/annotation/Signal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/thread/ThreadPool.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/factory/ConnectThreadFactory.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/annotation/NotNull.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/server/SSObjectServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/utils/AnnotationTools.java" />
@@ -199,6 +188,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/scheduler/SignalSlotObjectExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/server/SSObjectServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/factory/ConnectThreadManageFactory.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -419,7 +409,7 @@
       <workItem from="1561107695112" duration="642000" />
       <workItem from="1561130851329" duration="484000" />
       <workItem from="1561599938769" duration="78000" />
-      <workItem from="1561966773546" duration="821000" />
+      <workItem from="1561966773546" duration="936000" />
     </task>
     <task id="LOCAL-00001" summary="oss异步调用框架">
       <created>1560223362849</created>
@@ -484,17 +474,24 @@
       <option name="project" value="LOCAL" />
       <updated>1561108332881</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="调度器名称修改为执行器">
+      <created>1561967689059</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1561967689059</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39162000" />
+    <option name="totallyTimeSpent" value="39277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.371059" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.371059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -503,7 +500,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.092362344" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.10124334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30728242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1740675" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -537,7 +534,8 @@
     <MESSAGE value="bin文件删除" />
     <MESSAGE value="java" />
     <MESSAGE value="扩展槽函数接受Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="扩展槽函数接受Class" />
+    <MESSAGE value="调度器名称修改为执行器" />
+    <option name="LAST_COMMIT_MESSAGE" value="调度器名称修改为执行器" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/ThreadFactory.java">
@@ -745,13 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3525">
-          <caret line="141" column="25" selection-start-line="141" selection-start-column="25" selection-end-line="141" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/thread/ThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -809,13 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/scheduler/ServerExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/factory/Connect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
@@ -846,6 +830,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/factory/ConnectThreadManageFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1708">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/handler/ConnectExecutorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/scheduler/ServerExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/scheduler/SignalSlotObjectExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -859,17 +864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/factory/ConnectThreadManageFactory.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/handler/ConnectExecutorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="200">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>

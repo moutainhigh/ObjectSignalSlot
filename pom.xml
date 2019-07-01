@@ -6,7 +6,7 @@
 
   <groupId>com.githup.yafeiwang1240</groupId>
   <artifactId>ObjectSingalSlot</artifactId>
-  <version>1.0</version>
+  <version>1.0.0</version>
 
   <name>ObjectSingalSlot</name>
   <description>异步调用架构</description>
