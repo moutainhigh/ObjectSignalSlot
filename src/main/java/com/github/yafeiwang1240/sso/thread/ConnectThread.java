@@ -1,7 +1,7 @@
-package com.githup.yafeiwang1240.sso.thread;
+package com.github.yafeiwang1240.sso.thread;
 
-import com.githup.yafeiwang1240.sso.factory.Connect;
-import com.githup.yafeiwang1240.sso.utils.HashKeyTools;
+import com.github.yafeiwang1240.sso.factory.Connect;
+import com.github.yafeiwang1240.sso.utils.HashKeyTools;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

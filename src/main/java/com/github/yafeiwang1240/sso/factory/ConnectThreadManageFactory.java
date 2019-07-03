@@ -1,8 +1,8 @@
-package com.githup.yafeiwang1240.sso.factory;
+package com.github.yafeiwang1240.sso.factory;
 
-import com.githup.yafeiwang1240.sso.handler.ConnectExecutorHandler;
-import com.githup.yafeiwang1240.sso.thread.ConnectThread;
-import com.githup.yafeiwang1240.sso.utils.HashKeyTools;
+import com.github.yafeiwang1240.sso.thread.ConnectThread;
+import com.github.yafeiwang1240.sso.handler.ConnectExecutorHandler;
+import com.github.yafeiwang1240.sso.utils.HashKeyTools;
 
 import java.lang.reflect.Field;
 import java.util.Map;

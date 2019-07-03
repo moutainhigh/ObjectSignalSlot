@@ -1,8 +1,8 @@
-package com.githup.yafeiwang1240;
+package com.github.yafeiwang1240;
 
-import com.githup.yafeiwang1240.sso.AsynClient;
-import com.githup.yafeiwang1240.sso.annotation.Signal;
-import com.githup.yafeiwang1240.sso.annotation.Slot;
+import com.github.yafeiwang1240.sso.AsynClient;
+import com.github.yafeiwang1240.sso.annotation.Signal;
+import com.github.yafeiwang1240.sso.annotation.Slot;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

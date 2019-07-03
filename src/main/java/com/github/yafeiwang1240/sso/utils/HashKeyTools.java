@@ -1,4 +1,4 @@
-package com.githup.yafeiwang1240.sso.utils;
+package com.github.yafeiwang1240.sso.utils;
 
 import com.google.common.base.Charsets;
 import com.google.common.hash.Hashing;

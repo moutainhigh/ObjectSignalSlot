@@ -1,9 +1,9 @@
-package com.githup.yafeiwang1240.sso.server;
+package com.github.yafeiwang1240.sso.server;
 
-import com.githup.yafeiwang1240.sso.annotation.NotNull;
-import com.githup.yafeiwang1240.sso.annotation.Signal;
-import com.githup.yafeiwang1240.sso.annotation.Slot;
-import com.githup.yafeiwang1240.sso.scheduler.SignalSlotObjectExecutor;
+import com.github.yafeiwang1240.sso.annotation.Signal;
+import com.github.yafeiwang1240.sso.annotation.Slot;
+import com.github.yafeiwang1240.sso.scheduler.SignalSlotObjectExecutor;
+import com.github.yafeiwang1240.sso.annotation.NotNull;
 
 import java.util.concurrent.TimeUnit;
 

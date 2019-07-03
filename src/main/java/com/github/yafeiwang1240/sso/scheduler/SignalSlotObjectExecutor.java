@@ -1,8 +1,8 @@
-package com.githup.yafeiwang1240.sso.scheduler;
+package com.github.yafeiwang1240.sso.scheduler;
 
-import com.githup.yafeiwang1240.sso.factory.ConnectManageFactory;
-import com.githup.yafeiwang1240.sso.factory.ConnectThreadManageFactory;
-import com.githup.yafeiwang1240.sso.thread.ThreadPool;
+import com.github.yafeiwang1240.sso.factory.ConnectManageFactory;
+import com.github.yafeiwang1240.sso.factory.ConnectThreadManageFactory;
+import com.github.yafeiwang1240.sso.thread.ThreadPool;
 
 import java.io.Closeable;
 import java.io.IOException;

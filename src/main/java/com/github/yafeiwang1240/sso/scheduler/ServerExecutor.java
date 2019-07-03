@@ -1,4 +1,4 @@
-package com.githup.yafeiwang1240.sso.scheduler;
+package com.github.yafeiwang1240.sso.scheduler;
 
 public interface ServerExecutor {
     void connect(Object send, String signal, Object receive, String slot, Class<?>... params);

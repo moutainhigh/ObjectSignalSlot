@@ -1,4 +1,4 @@
-package com.githup.yafeiwang1240.sso;
+package com.github.yafeiwang1240.sso;
 
 import static org.junit.Assert.assertTrue;
 

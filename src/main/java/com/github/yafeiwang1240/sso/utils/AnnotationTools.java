@@ -1,7 +1,7 @@
-package com.githup.yafeiwang1240.sso.utils;
+package com.github.yafeiwang1240.sso.utils;
 
-import com.githup.yafeiwang1240.sso.annotation.Signal;
-import com.githup.yafeiwang1240.sso.annotation.Slot;
+import com.github.yafeiwang1240.sso.annotation.Signal;
+import com.github.yafeiwang1240.sso.annotation.Slot;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
