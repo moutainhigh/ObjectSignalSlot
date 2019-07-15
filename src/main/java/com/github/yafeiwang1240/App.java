@@ -1,6 +1,6 @@
 package com.github.yafeiwang1240;
 
-import com.github.yafeiwang1240.sso.AsynClient;
+import com.github.yafeiwang1240.sso.AsyncClient;
 import com.github.yafeiwang1240.sso.annotation.Signal;
 import com.github.yafeiwang1240.sso.annotation.Slot;
 
@@ -48,8 +48,8 @@ public class App
         Signal sg = field.getAnnotation(Signal.class);
         Slot sl =  method1.getAnnotation(Slot.class);
         Slot sl_2 =  method2.getAnnotation(Slot.class);
-        AsynClient.connect(app, sg, app, sl, String.class);
-        AsynClient.connect(app, sg, app, sl_2, String.class, int.class);
+        AsyncClient.connect(app, sg, app, sl, String.class);
+        AsyncClient.connect(app, sg, app, sl_2, String.class, int.class);
 
         SSS(sg, sl);
 
@@ -58,7 +58,7 @@ public class App
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        AsynClient.emit(app, sg, "这是信号槽异步调用1");
+        AsyncClient.emit(app, sg, "这是信号槽异步调用1");
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
@@ -70,7 +70,7 @@ public class App
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            AsynClient.emit(app, sg, "这是信号槽异步调用2", i);
+            AsyncClient.emit(app, sg, "这是信号槽异步调用2", i);
         }
 
         try {
@@ -78,7 +78,7 @@ public class App
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        AsynClient.remove(app, sg, app, sl, String.class);
+        AsyncClient.remove(app, sg, app, sl, String.class);
     }
 
 

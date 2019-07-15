@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7c2823c-ee54-4e42-b154-2fff9a0d30b6" name="Default Changelist" comment="" />
+    <list default="true" id="d7c2823c-ee54-4e42-b154-2fff9a0d30b6" name="Default Changelist" comment="设计架构图">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/AsynClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/AsyncClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/AsynServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/AsyncServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/SSObjectServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/SSObjectServer.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +31,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/AsynServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/AsyncServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
               <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
@@ -33,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/AsynClient.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/AsyncClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="125">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#891#892#0" expanded="true" />
@@ -62,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="50">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
@@ -177,6 +183,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/server/SSObjectServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/githup/yafeiwang1240/sso/factory/ConnectThreadManageFactory.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/AsyncClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/AsyncServer.java" />
       </list>
     </option>
   </component>
@@ -213,7 +221,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +250,43 @@
               <item name="ObjectSingalSlot" type="b2602c69:ProjectViewProjectNode" />
               <item name="ObjectSingalSlot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yafeiwang1240" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ObjectSingalSlot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ObjectSingalSlot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yafeiwang1240" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ObjectSingalSlot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ObjectSingalSlot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yafeiwang1240" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ObjectSingalSlot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ObjectSingalSlot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yafeiwang1240" type="462c0819:PsiDirectoryNode" />
+              <item name="sso" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ObjectSingalSlot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ObjectSingalSlot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -264,6 +308,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,7 +377,8 @@
       <workItem from="1561130851329" duration="484000" />
       <workItem from="1561599938769" duration="78000" />
       <workItem from="1561966773546" duration="1928000" />
-      <workItem from="1562158583917" duration="630000" />
+      <workItem from="1562158583917" duration="714000" />
+      <workItem from="1563170369239" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="oss异步调用框架">
       <created>1560223362849</created>
@@ -418,16 +464,24 @@
       <option name="project" value="LOCAL" />
       <updated>1562158816543</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="设计架构图">
+      <created>1562159258274</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562159258274</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40899000" />
+    <option name="totallyTimeSpent" value="41033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37752628" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38399354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -446,7 +500,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3516874" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.6447602" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.20248668" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -473,7 +527,8 @@
     <MESSAGE value="调度器名称修改为执行器" />
     <MESSAGE value="版本更新" />
     <MESSAGE value="github" />
-    <option name="LAST_COMMIT_MESSAGE" value="github" />
+    <MESSAGE value="设计架构图" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计架构图" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/concurrent/ThreadFactory.java">
@@ -728,27 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/AsynServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/AsynClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/factory/Connect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -757,6 +791,13 @@
             <element signature="e#701#702#0" expanded="true" />
             <element signature="e#734#735#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/yafeiwang1240/sso/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -793,17 +834,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/yafeiwang1240/sso/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="50">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/AsyncServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/AsyncClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

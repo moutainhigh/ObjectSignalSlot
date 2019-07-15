@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 信号槽服务
  */
-public class SSObjectServer implements AsynServer {
+public class SSObjectServer implements AsyncServer {
 
     private SignalSlotObjectExecutor executor;
 

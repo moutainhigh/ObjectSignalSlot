@@ -4,7 +4,7 @@ import com.github.yafeiwang1240.sso.annotation.NotNull;
 import com.github.yafeiwang1240.sso.annotation.Signal;
 import com.github.yafeiwang1240.sso.annotation.Slot;
 
-public interface AsynServer {
+public interface AsyncServer {
     void connect(Object send, @NotNull Signal signal, Object receive, @NotNull Slot slot, Class<?>... params);
     void connect(Object send, String signal, Object receive, String slot, Class<?>... params);
     void emit(Object send, @NotNull Signal signal, Object... args);

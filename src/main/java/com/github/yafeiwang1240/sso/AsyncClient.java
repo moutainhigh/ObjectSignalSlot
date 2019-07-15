@@ -3,11 +3,11 @@ package com.github.yafeiwang1240.sso;
 import com.github.yafeiwang1240.sso.annotation.Signal;
 import com.github.yafeiwang1240.sso.annotation.Slot;
 import com.github.yafeiwang1240.sso.annotation.NotNull;
-import com.github.yafeiwang1240.sso.server.AsynServer;
+import com.github.yafeiwang1240.sso.server.AsyncServer;
 import com.github.yafeiwang1240.sso.server.SSObjectServer;
 
-public class AsynClient {
-    private static AsynServer server;
+public class AsyncClient {
+    private static AsyncServer server;
     static {
         server = new SSObjectServer();
     }
