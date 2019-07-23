@@ -19,7 +19,7 @@ public class SignalSlotObjectExecutor implements ServerExecutor, Closeable {
     private ConnectManageFactory connectFactory;
 
     public SignalSlotObjectExecutor() {
-        this(2, 5, 120000, TimeUnit.MILLISECONDS, 20) ;
+        this(4, 10, 120000, TimeUnit.MILLISECONDS, 20) ;
     }
 
     public SignalSlotObjectExecutor(int corePoolSize, int maximumPoolSize, int keepAliveTime, TimeUnit unit, int capacity) {
