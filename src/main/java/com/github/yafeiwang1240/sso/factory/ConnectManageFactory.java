@@ -4,7 +4,7 @@ public interface ConnectManageFactory {
 
     void emit(Object signalObject, String signal, Object... params);
 
-    void connect(Object signalObject, Object slotObject, String signal, String slot, Class<?>... params);
+    void connect(Object signalObject, Object slotObject, String signal, String slot, Class<?>... params) throws Exception;
 
     boolean remove(Object signalObject, String signal, Class<?>... params);
 

@@ -12,10 +12,10 @@ public class AsyncClient {
         server = new SSObjectServer();
     }
 
-    public static void connect(Object send, @NotNull Signal signal, Object receive, @NotNull Slot slot, Class<?>... params){
+    public static void connect(Object send, @NotNull Signal signal, Object receive, @NotNull Slot slot, Class<?>... params) throws Exception {
         server.connect(send, signal, receive, slot, params);
     }
-    public static void connect(Object send, String signal, Object receive, String slot, Class<?>... params) {
+    public static void connect(Object send, String signal, Object receive, String slot, Class<?>... params) throws Exception {
         server.connect(send, signal, receive, slot, params);
     }
     public static void emit(Object send, @NotNull Signal signal, Object... args) {

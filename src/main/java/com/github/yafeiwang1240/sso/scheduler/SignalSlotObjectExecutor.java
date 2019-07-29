@@ -36,7 +36,7 @@ public class SignalSlotObjectExecutor implements ServerExecutor, Closeable {
     }
 
     @Override
-    public void connect(Object send, String signal, Object receive, String slot, Class<?>... params) {
+    public void connect(Object send, String signal, Object receive, String slot, Class<?>... params) throws Exception {
         connectFactory.connect(send, receive, signal, slot, params);
     }
 

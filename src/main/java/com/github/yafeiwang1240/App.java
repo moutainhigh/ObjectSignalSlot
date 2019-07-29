@@ -28,8 +28,7 @@ public class App
         System.out.println(str + ": " + i);
     }
 
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) throws Exception {
         System.out.println( "Hello World!" );
         App app = new App();
         Field field = null;

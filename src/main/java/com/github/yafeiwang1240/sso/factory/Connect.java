@@ -1,5 +1,7 @@
 package com.github.yafeiwang1240.sso.factory;
 
+import java.lang.reflect.Method;
+
 public final class Connect {
 
     private Object signalObject;
@@ -12,12 +14,24 @@ public final class Connect {
 
     private Class<?>[] params;
 
-    Connect(Object signalObject, Object slotObject, String signal, String slot, Class<?>... params) {
+    private Method method;
+
+    private Object invoke;
+
+    Connect(Object signalObject, Object slotObject, String signal, String slot, Class<?>... params) throws Exception {
         setParams(params);
         setSignal(signal);
         setSlot(slot);
         setSignalObject(signalObject);
         setSlotObject(slotObject);
+        if(getSlotObject() instanceof Class) {
+            method = ((Class) getSlotObject()).getMethod(getSlot(), getParams());
+            invoke = ((Class) getSlotObject()).newInstance();
+        } else {
+            method = getSlotObject().getClass().getMethod(getSlot(), getParams());
+            invoke = getSlotObject();
+        }
+
     }
 
     public Object getSignalObject() {
@@ -58,5 +72,13 @@ public final class Connect {
 
     public void setParams(Class<?>... params) {
         this.params = params;
+    }
+
+    public Method getMethod() {
+        return method;
+    }
+
+    public Object getInvoke() {
+        return invoke;
     }
 }

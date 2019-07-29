@@ -31,7 +31,7 @@ public class SSObjectServer implements AsyncServer {
      * @param params
      */
     @Override
-    public synchronized void connect(Object send, @NotNull Signal signal, Object receive, @NotNull Slot slot, Class<?>... params) {
+    public synchronized void connect(Object send, @NotNull Signal signal, Object receive, @NotNull Slot slot, Class<?>... params) throws Exception {
         connect(send, signal.value(), receive, slot.value(), params);
     }
 
@@ -44,7 +44,7 @@ public class SSObjectServer implements AsyncServer {
      * @param params
      */
     @Override
-    public synchronized void connect(Object send, String signal, Object receive, String slot, Class<?>... params) {
+    public synchronized void connect(Object send, String signal, Object receive, String slot, Class<?>... params) throws Exception {
         executor.connect(send, signal, receive, slot, params);
     }
 

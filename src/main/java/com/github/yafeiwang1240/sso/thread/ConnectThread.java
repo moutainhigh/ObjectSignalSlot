@@ -43,14 +43,10 @@ public class ConnectThread implements Runnable {
     @Override
     public void run() {
         Method method;
-        for(String key : connects.keySet()) {
-            Connect connect = connects.get(key);
+        for (Map.Entry<String, Connect> entry : connects.entrySet()) {
+            Connect connect = entry.getValue();
             try {
-                if(connect.getSlotObject() instanceof Class) {
-                    method = ((Class) connect.getSlotObject()).getMethod(connect.getSlot(), connect.getParams());
-                } else {
-                    method = connect.getSlotObject().getClass().getMethod(connect.getSlot(), connect.getParams());
-                }
+                method = connect.getMethod();
                 int aLen = args.length;
                 int pLen = connect.getParams().length;
                 Object [] t;
@@ -59,20 +55,12 @@ public class ConnectThread implements Runnable {
                 }else {
                     t = args;
                 }
-                if(connect.getSlotObject() instanceof Class) {
-                    method.invoke(((Class) connect.getSlotObject()).newInstance(), t);
-                } else {
-                    method.invoke(connect.getSlotObject(), t);
-                }
-            } catch (NoSuchMethodException e) {
-                e.printStackTrace();
-            }catch (SecurityException e) {
+                method.invoke(connect.getInvoke(), t);
+            } catch (SecurityException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
             }catch (IllegalAccessException | IllegalArgumentException | InvocationTargetException e) {
                 // TODO Auto-generated catch block
-                e.printStackTrace();
-            } catch (InstantiationException e) {
                 e.printStackTrace();
             }
         }

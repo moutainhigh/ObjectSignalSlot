@@ -30,7 +30,7 @@ public class ConnectThreadManageFactory implements ConnectManageFactory {
     }
 
     @Override
-    public void connect(Object signalObject, Object slotObject, String signal, String slot, Class<?>... params) {
+    public void connect(Object signalObject, Object slotObject, String signal, String slot, Class<?>... params) throws Exception {
         String hashKey = HashKeyTools.toHashKey(getHashArrays(signalObject, signal, params));
         ConnectThread thread = baseThreadMap.get(hashKey);
         if(thread == null) {
