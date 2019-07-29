@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d7c2823c-ee54-4e42-b154-2fff9a0d30b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/AsyncClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/AsyncClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/factory/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/factory/Connect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/factory/ConnectManageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/factory/ConnectManageFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/factory/ConnectThreadManageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/factory/ConnectThreadManageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/scheduler/ServerExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/scheduler/ServerExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/scheduler/SignalSlotObjectExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/scheduler/SignalSlotObjectExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/AsyncServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/AsyncServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/SSObjectServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/SSObjectServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/thread/ConnectThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/thread/ConnectThread.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +121,10 @@
       <workItem from="1564024964327" duration="561000" />
       <workItem from="1564365306638" duration="396000" />
       <workItem from="1564377445028" duration="687000" />
-      <workItem from="1564381543751" duration="516000" />
+      <workItem from="1564381543751" duration="555000" />
+      <workItem from="1564391706083" duration="135000" />
+      <workItem from="1564392371729" duration="12000" />
+      <workItem from="1564392637240" duration="449000" />
     </task>
     <task id="LOCAL-00001" summary="oss异步调用框架">
       <created>1560223362849</created>
@@ -238,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564025338316</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="异步调用性能优化">
+      <created>1564382086967</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1564382086967</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +272,8 @@
     <MESSAGE value="设计架构图" />
     <MESSAGE value="规范命名" />
     <MESSAGE value="去除无用引用" />
-    <option name="LAST_COMMIT_MESSAGE" value="去除无用引用" />
+    <MESSAGE value="异步调用性能优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="异步调用性能优化" />
   </component>
   <component name="masterDetails">
     <states>

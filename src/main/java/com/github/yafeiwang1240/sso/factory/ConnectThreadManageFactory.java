@@ -73,23 +73,24 @@ public class ConnectThreadManageFactory implements ConnectManageFactory {
                 arrays[i] = params[i];
             }else {
                 Class clz = params[i].getClass();
-                Field f = null;
-                try {
-                    f = clz.getDeclaredField("TYPE");
-                } catch (NoSuchFieldException e) {
-
-                }
-                if(f != null) {
-                    Class _clz = null;
-                    try {
-                        _clz = (Class) f.get(null);
-                    } catch (IllegalArgumentException | IllegalAccessException e) {
-
-                    }
-                    arrays[i] = _clz == null ? clz : _clz;
-                } else {
-                    arrays[i] = clz;
-                }
+//                Field f = null;
+//                try {
+//                    f = clz.getDeclaredField("TYPE");
+//                } catch (NoSuchFieldException e) {
+//
+//                }
+//                if(f != null) {
+//                    Class _clz = null;
+//                    try {
+//                        _clz = (Class) f.get(null);
+//                    } catch (IllegalArgumentException | IllegalAccessException e) {
+//
+//                    }
+//                    arrays[i] = _clz == null ? clz : _clz;
+//                } else {
+//                    arrays[i] = clz;
+//                }
+                arrays[i] = clz;
             }
         }
         return arrays;
