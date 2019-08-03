@@ -1,11 +1,6 @@
 package com.github.yafeiwang1240;
 
 import com.github.yafeiwang1240.sso.AsyncClient;
-import com.github.yafeiwang1240.sso.annotation.Signal;
-import com.github.yafeiwang1240.sso.annotation.Slot;
-
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 
 /**
  * Hello world!
@@ -13,76 +8,30 @@ import java.lang.reflect.Method;
  */
 public class App 
 {
-
-
-    @Signal("signal")
-    private String signal;
-
-    @Slot("slot")
-    public void slot(String str) {
-        System.out.println(str);
+    public static void main(String[] args) {
+        try {
+            System.out.println("hello world");
+            Signal signal = new Signal();
+            Slot slot = new Slot();
+            AsyncClient.connect(signal, "signal", slot, "slot", String.class);
+            AsyncClient.connect(signal, "signal", slot, "slot", String.class, int.class);
+            AsyncClient.emit(signal, "signal", "hello");
+            AsyncClient.emit(signal, "signal", "hello", 1);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
-    @Slot("slot")
-    public void slot(String str, int i) {
-        System.out.println(str + ": " + i);
+    public static class Signal {
+        public String singal = "1";
     }
 
-    public static void main( String[] args ) throws Exception {
-        System.out.println( "Hello World!" );
-        App app = new App();
-        Field field = null;
-        Method method1 = null;
-        Method method2 = null;
-        try {
-            field = App.class.getDeclaredField("signal");
-            method1 = App.class.getDeclaredMethod("slot", String.class);
-            method2 = App.class.getDeclaredMethod("slot", String.class, int.class);
-        } catch (NoSuchFieldException e) {
-            e.printStackTrace();
-        } catch (NoSuchMethodException e) {
-            e.printStackTrace();
+    public static class Slot {
+        public void slot(String msg) {
+            System.out.println("slot: " + msg);
         }
-
-        Signal sg = field.getAnnotation(Signal.class);
-        Slot sl =  method1.getAnnotation(Slot.class);
-        Slot sl_2 =  method2.getAnnotation(Slot.class);
-        AsyncClient.connect(app, sg, app, sl, String.class);
-        AsyncClient.connect(app, sg, app, sl_2, String.class, int.class);
-
-        SSS(sg, sl);
-
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        public void slot(String msg, int val) {
+            System.out.println("slot: " + msg + ", val: " + val);
         }
-        AsyncClient.emit(app, sg, "这是信号槽异步调用1");
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        for(int i = 0; i < 10; i++) {
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            AsyncClient.emit(app, sg, "这是信号槽异步调用2", i);
-        }
-
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        AsyncClient.remove(app, sg, app, sl, String.class);
-    }
-
-
-    public static void SSS( Signal sig, Slot slot) {
-        System.out.println(sig.value() + "::" + slot.value());
-        System.out.println(int.class);
     }
 }

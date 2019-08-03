@@ -2,9 +2,11 @@ package com.github.yafeiwang1240.sso.factory;
 
 public interface ConnectManageFactory {
 
-    void emit(Object signalObject, String signal, Object... params);
+    boolean emit(Object signalObject, String signal, Object[] args);
 
-    void connect(Object signalObject, Object slotObject, String signal, String slot, Class<?>... params) throws Exception;
+    boolean emit(Object signalObject, String signal, Object[] args, Class<?>[] params);
+
+    boolean connect(Object signalObject, Object slotObject, String signal, String slot, Class<?>... params) throws Exception;
 
     boolean remove(Object signalObject, String signal, Class<?>... params);
 

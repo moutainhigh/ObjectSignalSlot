@@ -1,4 +1,4 @@
-package com.github.yafeiwang1240.sso.thread;
+package com.github.yafeiwang1240.sso.factory;
 
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * ThreadPoolExecutor创建封装
  */
-public class ThreadPool {
+public class ThreadPoolFactory {
 
     public static ThreadPoolExecutor newThreadPoolExecutor() {
         return newThreadPoolExecutor(2, 5, 60000, TimeUnit.MILLISECONDS,  20);

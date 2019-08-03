@@ -1,8 +1,8 @@
 package com.github.yafeiwang1240.sso.scheduler;
 
 import com.github.yafeiwang1240.sso.factory.ConnectManageFactory;
-import com.github.yafeiwang1240.sso.factory.ConnectThreadManageFactory;
-import com.github.yafeiwang1240.sso.thread.ThreadPool;
+import com.github.yafeiwang1240.sso.factory.ConnectContainerManagerFactory;
+import com.github.yafeiwang1240.sso.factory.ThreadPoolFactory;
 
 import java.io.Closeable;
 import java.io.IOException;
@@ -23,26 +23,32 @@ public class SignalSlotObjectExecutor implements ServerExecutor, Closeable {
     }
 
     public SignalSlotObjectExecutor(int corePoolSize, int maximumPoolSize, int keepAliveTime, TimeUnit unit, int capacity) {
-        threadPoolExecutor = ThreadPool.newThreadPoolExecutor(corePoolSize, maximumPoolSize, keepAliveTime, unit, capacity);
+        threadPoolExecutor = ThreadPoolFactory.newThreadPoolExecutor(corePoolSize, maximumPoolSize, keepAliveTime, unit, capacity);
         init();
     }
 
     private void init() {
-        connectFactory = new ConnectThreadManageFactory();
-        ((ConnectThreadManageFactory) connectFactory).setSchedulerHandler((_method, _params) -> {
+        connectFactory = new ConnectContainerManagerFactory();
+        ((ConnectContainerManagerFactory) connectFactory).setSchedulerHandler((_method, _params) -> {
             _method.addParams(_params);
             threadPoolExecutor.execute(_method);
         });
     }
 
     @Override
-    public void connect(Object send, String signal, Object receive, String slot, Class<?>... params) throws Exception {
-        connectFactory.connect(send, receive, signal, slot, params);
+    public boolean connect(Object send, String signal, Object receive, String slot, Class<?>... params) throws Exception {
+        return connectFactory.connect(send, receive, signal, slot, params);
     }
 
     @Override
-    public void emit(Object send, String signal, Object... args) {
-        connectFactory.emit(send, signal, args);
+    public boolean emit(Object send, String signal, Object[] args) {
+        return connectFactory.emit(send, signal, args);
+    }
+
+
+    @Override
+    public boolean emit(Object send, String signal, Object[] args, Class<?>[] params) {
+        return connectFactory.emit(send, signal, args, params);
     }
 
     @Override
