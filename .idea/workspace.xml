@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7c2823c-ee54-4e42-b154-2fff9a0d30b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/connect/ConnectContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/connect/ConnectWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/factory/ConnectContainerManagerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/factory/ConnectFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/AsyncClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/AsyncClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/annotation/NotNull.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/annotation/Signal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/annotation/Slot.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/factory/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/connect/Connect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/factory/ConnectManageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/factory/ConnectManageFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/factory/ConnectThreadManageFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/scheduler/ServerExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/scheduler/ServerExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/scheduler/SignalSlotObjectExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/scheduler/SignalSlotObjectExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/AsyncServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/AsyncServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/SSObjectServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/server/SSObjectServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/thread/ConnectThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/thread/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/factory/ThreadPoolFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/utils/AnnotationTools.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/sso/utils/HashKeyTools.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/yafeiwang1240/sso/AppTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +125,13 @@
       <workItem from="1564570637524" duration="44000" />
       <workItem from="1564571828520" duration="142000" />
       <workItem from="1564758580137" duration="6154000" />
-      <workItem from="1564818861769" duration="1064000" />
+      <workItem from="1564818861769" duration="1362000" />
+      <workItem from="1564821846029" duration="84000" />
+      <workItem from="1564822156348" duration="26000" />
+      <workItem from="1564822997088" duration="53000" />
+      <workItem from="1564825384676" duration="47000" />
+      <workItem from="1565870016492" duration="30000" />
+      <workItem from="1566381756719" duration="122000" />
     </task>
     <task id="LOCAL-00001" summary="oss异步调用框架">
       <created>1560223362849</created>
@@ -268,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564393123831</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="修改内部映射表架构，更精准真的信号槽连接机制，并去除依赖">
+      <created>1564820143089</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1564820143089</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,18 +295,8 @@
     <MESSAGE value="去除无用引用" />
     <MESSAGE value="异步调用性能优化" />
     <MESSAGE value="强制使用包装类" />
-    <option name="LAST_COMMIT_MESSAGE" value="强制使用包装类" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/github/yafeiwang1240/App.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="修改内部映射表架构，更精准真的信号槽连接机制，并去除依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改内部映射表架构，更精准真的信号槽连接机制，并去除依赖" />
   </component>
   <component name="masterDetails">
     <states>
